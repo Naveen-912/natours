@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css -w",
     "deploy": "gh-pages -d dist"
   },
   "author": "naveen",
   "license": "ISC",
   "homepage": "https://github.com/Naveen-912/natours",
-  "devDependencies": {
-    "node-sass": "^7.0.1"
-  },
   "dependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
   }
 }
